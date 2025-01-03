@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 0d2f50a8e0bb841a5aaa90ae55db8849
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139975
+  packageName: Survivor Island
+  packageVersion: 1.0
+  assetPath: Assets/Survivor Island/Scripts/WaterBasic.cs
+  uploadId: 295805

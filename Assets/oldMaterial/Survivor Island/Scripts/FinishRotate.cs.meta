@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 8cb0bdd89f0d5eb498dda0be02853052
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 139975
+  packageName: Survivor Island
+  packageVersion: 1.0
+  assetPath: Assets/Survivor Island/Scripts/FinishRotate.cs
+  uploadId: 295805
