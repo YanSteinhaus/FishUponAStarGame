@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa9f782b9f0c5544f9cda9f5e6b131a9, type: 3}
+  m_Name: Rabbit
+  m_EditorClassIdentifier: 
+  id: 1
+  ingredientName: Rabbit
+  ingredientDescription: Rare to get in a trap
+  ingredientSprite: {fileID: 8302001889493003386, guid: 7804c7c643e5aee4191ec0459231579c, type: 3}
