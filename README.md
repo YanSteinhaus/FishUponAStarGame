@@ -3,5 +3,5 @@
 
 
 
- #Fish Upon A Star 
- [Apache 2.0 Lisence] ([path](https://github.com/YanSteinhaus/FishUponAStarGame/blob/main/Apache%202.0%20License))
+ # Licence 
+([Apache 2.0 Lisence](https://github.com/YanSteinhaus/FishUponAStarGame/blob/main/Apache%202.0%20License))
