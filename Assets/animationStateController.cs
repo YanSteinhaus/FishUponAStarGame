@@ -4,37 +4,25 @@ using UnityEngine;
 
 public class animationStateController : MonoBehaviour
 {
-    Animator animator;
+    public Animator animator;
+
+    
+    private Rigidbody rb;
+
+    private int speedHash;
+    private float speed;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        animator = GetComponent<Animator>();
-        Debug.Log(animator);
+        rb = GetComponent<Rigidbody>();
+
+        speedHash = Animator.StringToHash("Speed");
     }
 
     // Update is called once per frame
     void Update()
     {
-        bool isWalkingF = animator.GetBool("isWalkingF");
-        bool isWalkingB = animator.GetBool("isWalkingB");
-        bool forwardPressed = Input.GetKey("w");
-        bool backwardPressed = Input.GetKey("s");
-        if (!isWalkingF && forwardPressed)
-        {
-            animator.SetBool("isWalkingF", true);
-        }
-        if (isWalkingF && !forwardPressed)
-        {
-            animator.SetBool("isWalkingF", false);
-        }
-        if (!isWalkingB && backwardPressed) 
-        {
-            animator.SetBool("isWalkingB", true);
-        }
-        if (isWalkingB && !backwardPressed)
-        {
-            animator.SetBool("isWalkingB", false);
-        }
-
+        speed = rb.linearVelocity.magnitude;
+        animator.SetFloat(speedHash, speed);
     }
 }
